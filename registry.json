@@ -1,0 +1,32 @@
+{
+  "$schema": "https://raw.githubusercontent.com/STofone/dsh-agent-roster/main/schema/registry.v1.schema.json",
+  "kind": "dsh-agent-roster-registry/v1",
+  "version": 1,
+  "generatedAt": "2026-10-30T00:00:00.000Z",
+  "generator": "STofone/dsh-roster-agent-teams (hand-maintained)",
+  "source": "https://github.com/STofone/dsh-roster-agent-teams",
+  "collections": [
+    {
+      "id": "agent-teams",
+      "title": "Agent Teams（wshobson/agents 迁移）",
+      "description": "把 wshobson/agents 的 agent-teams 插件（4.2 万星，MIT）迁移成 Agent Roster 档案：队长、实现者、审查者、调试者四个角色，保留上游的工具边界。",
+      "repo": "github:STofone/dsh-roster-agent-teams",
+      "ref": "main",
+      "path": "rosters",
+      "rosters": [
+        "agent-teams"
+      ],
+      "tags": [
+        "team",
+        "orchestration",
+        "claude-code",
+        "wshobson"
+      ],
+      "license": "MIT",
+      "maintainers": [
+        "STofone"
+      ],
+      "homepage": "https://github.com/STofone/dsh-roster-agent-teams"
+    }
+  ]
+}
